@@ -1,0 +1,81 @@
+@font-face {
+    font-family: Montserrat;
+    src: url(шрифт/Montserrat/Montserrat-Regular.ttf);
+}
+
+body{
+    font-family:Montserrat;
+    background: linear-gradient(100deg, #E9EAE6, #FCFE92);
+}
+.img-fluid{
+    min-width: 100px;
+}
+.nav-link-hover-bg:hover{
+    background-color: #fcfe9247;
+    color: black;
+}
+.nav-link-hover-bg:active{
+    color: rgb(255, 255, 255);
+}
+.nav-link:hover{
+    color:#ffffff ;
+}
+.btn:hover{
+    background-color: #fcfe9247;
+    color: black;
+}
+.form-control:focus{
+    border-color:#fcfe9247;
+    box-shadow: #FCFE92;
+}
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
+.navbar-toggler {
+    padding: 4px 8px;
+}
+
+.dropdown-menu {
+    border: none;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.dropdown-item {
+    padding: 10px 20px;
+}
+
+.dropdown-item:hover {
+    background-color: #fcfe9247;
+    color: white;
+    padding-left: 25px;
+}
+
+/* Адаптивность для мобильных */
+@media (max-width: 767.98px) {
+    .navbar-nav {
+        text-align: center;
+        gap: 0 !important;
+    }
+    
+    .nav-item {
+        border-bottom: 1px solid #f8f9fa;
+    }
+    
+    .nav-link {
+        padding: 15px 20px;
+    }
+    
+    .dropdown-menu {
+        border-radius: 0;
+        border: none;
+        box-shadow: none;
+    }
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+    background-color: #000;
+}
+.nav-link{
+    color: #000;
+}

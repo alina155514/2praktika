@@ -1,0 +1,22 @@
+@font-face {
+    font-family: Montserrat;
+    src: url(шрифт/Montserrat/Montserrat-Regular.ttf);
+}
+
+body{
+    font-family:Montserrat;
+    background: linear-gradient(100deg, #E9EAE6, #FCFE92);
+}
+.img-fluid{
+    min-width: 100px;
+}
+.nav-link-hover-bg:hover{
+    background-color: #fcfe9247;
+    color: black;
+}
+.nav-link-hover-bg:active{
+    color: rgb(255, 255, 255);
+}
+.nav-link:hover{
+    color:#ffffff ;
+}
